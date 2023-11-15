@@ -16,14 +16,15 @@
             <%= product.color %>
         </li>
         <li>
-            <strong>Size:</strong>
-            <%= product.size %>
-        </li>
-        <li>
             <strong>Price:</strong>
             <%= product.price %>
         </li>
+        <li>
+            <strong>Category:</strong>
+            <%= product.category %>
+        </li>
     </ul>
     <a href="/products">Back</a>
+    <a href="/products/<%= product._id %>/edit">Edit</a>
 </body>
 </html>
